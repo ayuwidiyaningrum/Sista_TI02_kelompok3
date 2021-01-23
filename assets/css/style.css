@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+}
+
+.navbar-brand span {
+  font-weight: bolder;
+  color: #fff;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Banner */
+#banner {
+  position: relative;
+  background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.title {
+  font-weight: bolder;
+  margin-top: 1px;
+}
+
+.ban-img {
+  position: relative;
+  z-index: 1000;
+}
+
+.wave {
+  position: absolute;
+  bottom: -10%;
+  left: 0;
+}
+
+/* features */
+#features {
+  padding: 80px 0;
+}
+
+.features {
+  padding: 20px;
+}
+
+.features img {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.features h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+/* footer */
+
+.foot {
+  text-align: center;
+}
+
+.footer {
+  background-image: linear-gradient(to right, white);
+}
+
+.footer address {
+  color: rgb(83, 81, 81);
+}
+
+/* .login */
+.login {
+  margin: 80px auto;
+  padding: 30px 20px;
+  max-width: 500px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightskyblue;
+}
+
+.login h1 {
+  text-align: center;
+  color: #fafafa;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* signup */
+.signup {
+  margin: 80px auto;
+  padding: 30px 20px;
+  max-width: 500px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightskyblue;
+}
+
+.signup h1 {
+  text-align: center;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+input[type="time"],
+.error {
+  color: red;
+  visibility: visible;
+  font-size: 10pt;
+}
+
+.sukses {
+  visibility: hidden;
+}
+
+.judul {
+  text-align: center;
+}
+
+.titik {
+  padding-left: 20px;
+}
+
+.dropdown-menu :hover {
+  background-color: darkcyan;
+
+}
+
+.from4 {
+  text-align: center;
+}
+
+.signupa {
+  margin: 10px auto;
+  padding: 20px 10px;
+  max-width: 1000px;
+  font-family: 'Open Sans', sans-serif;
+  
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sista_nf</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <section id="nav">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top"> -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <img src="assets/img/logo.png" class="ban-img img-fluid" alt="">
+        <a class="navbar-brand" href="index1_1.html"><span>SISTA</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index1_1.html">Beranda
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index2_1.html">Jadwal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index5_1.html">Daftar Seminar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index10_1.html">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index11.html">profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Keluar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Apakah Anda ingin Keluar?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <!-- <div class="modal-body">
+			  ...
+			</div> -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
+          <a class="btn btn-primary" href="index.html">Ya </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-3">
+    <h4 class="judul">Jadwal Seminar</h4>
+  </div>
+  <div class="container-fluid py-3 px-5 mb-5 shadow">
+    <div class="table-responsive">
+      <table class="table table-bordered" class="table table-striped">
+        <thead>
+          <tr class="table-success">
+            <th scope="col">
+              No
+            </th>
+            <th scope="col">
+              NIM
+            </th>
+            <th scope="col">
+              Mahasiswa
+            </th>
+            <th scope="col">
+              Seminar
+            </th>
+            <th scope="col">
+              Waktu
+            </th>
+            <th scope="col">
+              Ruangan
+            </th>
+            <th scope="col">
+              Detail Jadwal
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">
+              1
+            </td>
+            <td>
+              0110219001
+            </td>
+            <td>
+              Ibnu Arrafiq
+            </td>
+            <td>
+              Proposal
+            </td>
+            <td>
+              10.00 4-01-2021
+            </td>
+            <td>
+              Online
+            </td>
+            <td>
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target=".bd-example-modal-lg1">Detail</button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <td scope="row">
+              2
+            </td>
+            <td>
+              0110219002
+            </td>
+            <td>
+              Ahmad Izhar
+            </td>
+            <td>
+              Seminar Hasil
+            </td>
+            <td>
+              13.00 9-01-2021
+            </td>
+            <td>
+              Online
+            </td>
+            <td>
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target=".bd-example-modal-lg2">Detail</button>
+
+            </td>
+          </tr>
+          <tr>
+            <td scope="row">
+              3
+            </td>
+            <td>
+              0110219003
+            </td>
+            <td>
+              Aldebaran Alfatih
+            </td>
+            <td>
+              Sidang Akhir
+            </td>
+            <td>
+              10.00 14-01-2021
+            </td>
+            <td>
+              Online
+            </td>
+            <td>
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target=".bd-example-modal-lg3">Detail</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Large modal -->
+
+  <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <fieldset class="border p-2" style="border:1px solid gray">
+                <legend class="w-auto col-md-5">Seminar Proposal</legend>
+                <div class="row">
+                  <div class="col">
+                    Nim : 0110219001
+                  </div>
+                  <div class="col">
+                    Pembimbing : Sirojul Munir SSI, M.KOM
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    Nama : Ibnu Arrafiq
+                  </div>
+                  <div class="col">
+                    Penguji : Ahmad Rio M.SI
+                  </div>
+                </div>
+                <ul class="list-unstyled">
+                  <li class="list-item">
+                    Prodi : Teknik Informatika
+                  </li>
+                  <li class="list-item">
+                    Judul : Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC
+                    Framework
+                  </li>
+                  <li class="list-item">
+                    Waktu : Senin, 1 Januari 2021, 10.00
+                  </li>
+                  <li class="list-item">
+                    Ruang : Zoom Online
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index4_1.html">Daftar Peserta</a>
+                </li>
+              </ul>
+              </fieldset>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- modal 2 -->
+  <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <fieldset class="border p-2" style="border:1px solid gray">
+                <legend class="w-auto col-md-5">Seminar Hasil</legend>
+                <div class="row">
+                  <div class="col">
+                    Nim : 0110219002
+                  </div>
+                  <div class="col">
+                    Pembimbing : Sirojul Munir SSI, M.KOM
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    Nama : Ahmad Izhar
+                  </div>
+                  <div class="col">
+                    Penguji : Ahmad Rio M.SI
+                  </div>
+                </div>
+                <ul class="list-unstyled">
+                  <li class="list-item">
+                    Prodi : Teknik Informatika
+                  </li>
+                  <li class="list-item">
+                    Judul : Rancang Bangun Aplikasi Bank Sampah Berbasis WEB
+                  </li>
+                  <li class="list-item">
+                    Waktu : Sabtu, 9 Januari 2021, 13.00
+                  </li>
+                  <li class="list-item">
+                    Ruang : Zoom Online
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index4_2.html">Daftar Peserta</a>
+                </li>
+              </ul>
+              </fieldset>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- modal 3 -->
+  <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <fieldset class="border p-2" style="border:1px solid gray">
+                <legend class="w-auto col-md-5">Sidang Akhir</legend>
+                <div class="row">
+                  <div class="col">
+                    Nim : 0110219003
+                  </div>
+                  <div class="col">
+                    Pembimbing : Sirojul Munir SSI, M.KOM
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    Nama : Aldebaran Alfatih
+                  </div>
+                  <div class="col">
+                    Penguji : Ahmad Rio M.SI
+                  </div>
+                </div>
+                <ul class="list-unstyled">
+                  <li class="list-item">
+                    Prodi : Teknik Informatika
+                  </li>
+                  <li class="list-item">
+                    Judul : Rancang Bangun Aplikasi Pustaka (Pusat Data Informatika) Berbasis WEB
+                  </li>
+                  <li class="list-item">
+                    Waktu : Kamis, 14 Januari 2021, 10.00
+                  </li>
+                  <li class="list-item">
+                    Ruang : Zoom Online
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index4_3.html">Daftar Peserta</a>
+                </li>
+              </ul>
+              </fieldset>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </section>
+  <hr style="border-bottom : 1px solid blue">
+  <!-- footer -->
+  <section class="footer">
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5">
+            <address>
+              <img src="/assets/img/logo.png" alt="">
+              STT Terpadu Nurul Fikri
+            </address>
+          </div>
+          <div class="col-md-4">
+            <address>
+              <h5>HUBUNGI KAMI</h5>
+              Jl. Raya Lenteng Agung No.20, RT.4/RW.1,<br /> Srengseng Sawah, Kec. Jagakarsa, Kota
+              <br />Jakarta
+              Selatan, DKI Jakarta 12640 <br /> E-mail: info@nurulfikri.ac.id <br /><abbr title="Phone"></abbr> +62 857
+              1624 3174
+            </address>
+          </div>
+          <div class="col-md-3">
+            <address>
+              <h5>INFO</h5>
+              <a href="https://nurulfikri.ac.id/">STT NF</a><br /> <a
+                href="https://journal.nurulfikri.ac.id/index.php/jtt">Journal</a><br />
+              <a href="https://library.nurulfikri.ac.id/">Library</a> <br /> <a
+                href="http://dosen.nurulfikri.ac.id/">Dosen</a>
+            </address>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="foot">Copyright © 2020- STT Terpadu Nurul Fikri</div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
